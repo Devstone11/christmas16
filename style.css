@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'I Love Christmas';
+  color: #FBFEFF;
+  overflow: none;
+  text-shadow: -1px -1px 14px #580016,
+    1px -1px 14px #580016,
+    -1px 1px 14px #580016,
+    1px 1px 14px #580016;
+}
+
+header {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  font-family: Pacifico;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+aside {
+  width: 40%;
+  min-width: 300px;
+}
+
+.picture {
+  height: 340px;
+  width: 450px;
+  background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13427830_10209800110498936_28228244698608356_n.jpg?oh=160654e69b66c5a1937c2507257d4202&oe=58FA43FB');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.tree {
+  height: 350px;
+  background-image: url('christmas-tree.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.ornament {
+  height: 40px;
+  width: 40px;
+  background-image: url('ornament.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+#star {
+  background-image: url('golden_star.png');
+  height: 60px;
+  width: 60px;
+  left: 145px;
+  top: -20px;
+}
+
+#one {
+  top: 250px;
+  left: 160px;
+}
+
+#two {
+  top: 200px;
+  left: 120px;
+}
+
+#three {
+  top: 140px;
+  left: 175px;
+}
+
+#four {
+  top: 70px;
+  left: 140px;
+}
+
+.instructions {
+  font-size: 28px;
+  font-family: Pacifico;
+  text-align: right;
+  padding-right: 13%;
+  /*margin-top: 2vh;*/
+}
+
+@media (max-width: 600px) {
+  .instructions {
+    font-size: 28px;
+    text-align: center;
+    padding-right: none;
+  }
+
+  .tree {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 748px) {
+  #star {
+    left: 120px;
+  }
+}
